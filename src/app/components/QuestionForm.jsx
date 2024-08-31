@@ -239,4 +239,6 @@ const QuestionForm = forwardRef((props, ref) => {
   );
 })
 
+QuestionForm.displayName = 'QuestionForm';
+
 export default QuestionForm;
